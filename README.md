@@ -1,15 +1,54 @@
-# Expo Router Example
+# JobFinder React Native App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+JobFinder is a mobile application built with React Native that helps users find job opportunities based on their location and preferences. The app uses job search APIs to fetch job listings and allows users to filter them by location, job type, and other criteria.
 
-## 🚀 How to use
+## Features
 
-```sh
-npx create-react-native-app -t with-router
+- Search for job listings based on location and keywords
+- Filter job listings by job type, salary range, and other criteria
+- View job details and apply directly from the app
+- Save favorite job listings for later viewing
+- Get push notifications for new job listings that match your criteria
+
+<!-- ## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png) -->
+
+## Technologies Used
+
+- React Native
+- Redux
+- React Navigation
+- Axios
+- REST APIs
+
+## Getting Started
+
+To get started with JobFinder, you'll need to have React Native installed on your computer. You can then clone the repository and install the dependencies:
+
+```
+git clone https://github.com/your-username/jobfinder-react-native.git
+cd jobfinder-react-native
+npm install
 ```
 
-## 📝 Notes
+You'll also need to obtain API keys from job search APIs to use the app. Once you have your API keys, create a `.env` file in the project root directory and add your keys:
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+```
+API_KEY=your-api-key
+```
+
+Finally, you can run the app on an emulator or device:
+
+```
+npx react-native run-android
+```
+
+## Contributing
+
+Contributions to JobFinder are welcome! If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request. Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
+
+## License
+
+JobFinder is licensed under the [MIT License](LICENSE). Feel free to use this app for your own purposes or modify it as needed.
