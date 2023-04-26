@@ -11,11 +11,12 @@ import { useRouter } from "expo-router";
 
 import styles from "./welcome.style";
 import { icons, SIZES } from "../../../constants";
-const jobTypes = ["Full-time", "Part-time", "Contractor" ]
+import { unstable_renderSubtreeIntoContainer } from "react-dom";
+const jobTypes = ["Full-time", "Part-time", "Contractor"];
 
 const Welcome = () => {
   const router = useRouter();
-  const [activeJobType, setActiveJobType] = useState('Full-time');
+  const [activeJobType, setActiveJobType] = useState("Full-time");
   return (
     <View>
       <View style={styles.container}>
@@ -43,13 +44,22 @@ const Welcome = () => {
 
       <View style={styles.tabsContainer}>
         <FlatList
-          data = {jobTypes}
-          renderItem= {({item})=> (
+          data={jobTypes}
+          renderItem={({ item }) => (
             <TouchableOpacity
-              style={styles.tab(activeJobType, item)}>
-              <Text> {item} </Text>
+              style={styles.tab(activeJobType, item)}
+              onPress={() => {
+                setActiveJobType(item);
+                router.push(`/search/${item}`);
+              }}
+            > 
+              <Text style= {styles.tabText(activeJobType, item)}>
+                 {item} </Text>
             </TouchableOpacity>
-        )}  
+          )}
+          keyExtractor={item => item}
+          horizontal
+          contentContainerStyle= {{columnGap: SIZES.small}}
         />
       </View>
     </View>
