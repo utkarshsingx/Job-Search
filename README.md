@@ -12,11 +12,25 @@ JobFinder is a mobile application built with React Native that helps users find 
 
 ## Screenshots
 
-![Screenshot 1] (assets/screenshots/screenshot1.png)
-![Screenshot 2] (assets/screenshots/screenshot2.png)
-![Screenshot 3] (assets/screenshots/screenshot3.png)
-![Screenshot 4] (assets/screenshots/screenshot4.png)
-![Screenshot 5] (assets/screenshots/screenshot5.png)
+Here are some screenshots of the app:
+
+![Screenshot 1](assets/screenshots/screenshot1.png)
+![Screenshot 2](assets/screenshots/screenshot2.png)
+![Screenshot 3](assets/screenshots/screenshot3.png)
+![Screenshot 4](assets/screenshots/screenshot4.png)
+![Screenshot 5](assets/screenshots/screenshot5.png)
+
+## Getting Started
+
+To view the website, simply open the `index.html` file in a web browser.
+
+## Contributing
+
+Contributions to the website are welcome! If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request.
+
+## License
+
+The website is licensed under the [MIT License](LICENSE). Feel free to use this website for your own purposes or modify it as needed.
 
 ## Technologies Used
 
