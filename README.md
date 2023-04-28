@@ -10,18 +10,17 @@ JobFinder is a mobile application built with React Native that helps users find 
 - Save favorite job listings for later viewing
 - Get push notifications for new job listings that match your criteria
 
-<!-- ## Screenshots
+## Screenshots
 
 ![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png) -->
+![Screenshot 2](screenshots/screenshot2.png)
 
 ## Technologies Used
 
 - React Native
-- Redux
 - React Navigation
 - Axios
-- REST APIs
+- JSearch API
 
 ## Getting Started
 
