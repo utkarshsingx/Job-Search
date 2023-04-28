@@ -5,24 +5,19 @@ JobFinder is a mobile application built with React Native that helps users find 
 ## Features
 
 - Search for job listings based on location and keywords
-- Filter job listings by job type, salary range, and other criteria
+- Filter job listings by job type whether 'Full-time', 'Part-time' or a 'Contractor'.
 - View job details and apply directly from the app
 - Save favorite job listings for later viewing
-- Get push notifications for new job listings that match your criteria
 
 ## Screenshots
 
 Here are some screenshots of the app:
 
 ![Screenshot 1](assets/screenshots/screenshot1.png)
-![Screenshot 2](assets/screenshots/screenshot2.png)
-![Screenshot 3](assets/screenshots/screenshot3.png)
-![Screenshot 4](assets/screenshots/screenshot4.png)
-![Screenshot 5](assets/screenshots/screenshot5.png)
 
-## Getting Started
+![Screenshot 2](screenshots/screenshot2.png) ![Screenshot 3](screenshots/screenshot3.png)
 
-To view the website, simply open the `index.html` file in a web browser.
+![Screenshot 4](screenshots/screenshot4.png) ![Screenshot 5](screenshots/screenshot5.png)
 
 ## Contributing
 
@@ -68,3 +63,4 @@ Contributions to JobFinder are welcome! If you find a bug or have an idea for a 
 ## License
 
 JobFinder is licensed under the [MIT License](LICENSE). Feel free to use this app for your own purposes or modify it as needed.
+
